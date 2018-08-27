@@ -1,0 +1,35 @@
+要查清楚的東西
+viewport, html, 跟body在CSS選擇器中的差異
+cursor
+transition中的background使用方法跟時機
+偽元素
+og tag
+
+
+補充：
+後來回家查了怎麼用command line去操作git，找到一些資料
+首先呢~~在window上用git好像是要另外設定的，只是下載安裝不夠
+步驟一：
+下載git
+https://git-scm.com/downloads
+
+步驟二：
+安裝完(全都照預設就好)後記清楚安裝位置
+去紀錄複製以下兩個位置：
+C:\Program Files\Git\bin
+C:\Program Files\Git\mingw64\libexec\git-core
+("C:\Program Files\Git\"這一段就會依照你安裝git的位置不同而改變)
+
+步驟三：
+對我的電腦按右鍵-內容-進階系統設定-環境變數
+在系統變數中找到path，單擊後按編輯
+
+步驟四：
+在變數值那一欄中貼上在步驟二記下來的兩個位置(不要刪掉原本的)，然後貼上的時候位置之間用分號";"隔開
+貼完後按確定就完成了
+
+結束之後就可以直接開cmd操作git了
+(不用另外打$)
+
+然後我看到一個不錯的youtube教git的基礎操作，可以參考一下~~
+https://www.youtube.com/watch?v=HVsySz-h9r4
