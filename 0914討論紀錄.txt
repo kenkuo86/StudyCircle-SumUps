@@ -1,0 +1,20 @@
+計算機作業
+DOMContentLoader 和 windows.load 差別在於: DOMContentLoader html load 完即載入script; 而window.load會等css載入玩再載入 script;
+querySelector 是 Javascript 模仿 jquery 的選法 (個人感覺沒用);
+使用document.addEventListener 時 e 是事件物件，而 target 是e的屬性，透過 e.target 對目標執行事件;
+
+ES 6的改變
+var 無視if 的{}，是 global context，因次造成混淆，如今多改用let
+儘管 const 是常數，但 object 是 mutable ( const 物件也會變)
+查 statements 和 return expression 的差別
+destructuring 陣列解構( 對應到中括號)
+物件解構 => {物件的key} = 物件
+expression有回傳值(待查證)
+
+Google 表單作業
+input[type='email'] 自動要求內容附加@
+radio中，選項的name一樣便只能擇一
+'focusout'事件可以達到空格必填的效果
+
+Github
+Github要怎麼共享
